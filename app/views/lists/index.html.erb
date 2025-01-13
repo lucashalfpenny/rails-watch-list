@@ -1,0 +1,30 @@
+<h1>My movie Lists</h1>
+
+<div class="banner" style= "background-image: url('<%= image_path "neon-cinema-projector-sign-vector.jpg"%> ');">
+  <%# <%= image_tag "neon-cinema-projector-sign-vector.jpg", alt: "Le Wagon"%>
+  <div class="container">
+    <h1>Choose from your <strong>favourite</strong> films!</h1>
+    <p>Create your own lists <em>NOW!</em></p>
+  </div>
+</div>
+
+
+<%# <ul>
+  <% @lists.each do |list| %>
+    <%# <li><%= link_to list.name, list_path(list) %>
+  <%# <% end %>
+<%# </ul> %>
+
+<div class="cards">
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+    Breakfast
+  </div>
+
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+    Lunch
+  </div>
+
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
+    Dinner
+  </div>
+</div>
